@@ -9,8 +9,8 @@ const Navbar = () => {
         <div className="  flex w-full justify-center items-center py-6 px-5">
             <motion.div className=" w-full md:w-[600px] h-[70px] rounded-xl bg-[#ffffff85] border-2 border-[#f1f1f1] backdrop-blur-[3.7px] flex items-center justify-between p-3">
                 <Link href='/'><p className=" font-IBM text-lg font-normal text-[#000]">DanielCodes™</p></Link>
-                <div class="menu-icon">
-                    <input class="menu-icon__cheeckbox" type="checkbox" />
+                <div className="menu-icon">
+                    <input className="menu-icon__cheeckbox" type="checkbox" />
                     <div>
                         <span></span>
                         <span></span>

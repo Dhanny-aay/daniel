@@ -17,10 +17,10 @@ const Projects = () => {
                     <div className=" w-full md:w-[350px] h-auto md:h-[400px] bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
                         <Image src={ stickframe } className=" rounded-3xl" alt="" />
                     </div>
-                    <span className=" flex flex-col lg:mr-20 space-y-4 md:space-y-8">
+                    <span className=" flex flex-col md:mt-8 lg:mt-0 lg:mr-20 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Stickify</p>
                         <p className=" font-IBM text-xs font-light w-full lg:w-36">Stickify allows users to create and organize digital sticky notes that can be customized to suit their needs.</p>
-                        <button className=" text-xs mr-auto lg:mr-0 text-black bg-transparent hover:bg-black w-[150px] py-3 px-1 rounded-lg lg:-ml-8 font-IBM border border-black bg-black hover:text-[#fff] transition-all duration-300">Visit Website</button>
+                        <a href="https://stickify.vercel.app/" target="blank" className=" text-xs mr-auto lg:mr-0 text-black bg-transparent text-center hover:bg-black w-[150px] py-3 px-1 rounded-lg font-IBM border border-black bg-black hover:text-[#fff] transition-all duration-300">Visit Website</a>
                     </span>
                 </div>
 
@@ -29,10 +29,10 @@ const Projects = () => {
                     <div className=" w-full md:w-[350px] h-auto md:h-[400px] bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
                         <Image src={ shoeframe } className=" rounded-3xl" alt="" />
                     </div>
-                    <span className=" flex flex-col lg:mr-20 space-y-4 md:space-y-8">
+                    <span className=" flex flex-col md:mt-8 lg:mt-0 lg:mr-20 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Shoes</p>
                         <p className=" font-IBM text-xs font-light lg:w-36">A captivating web animation exhibition, skillfully crafted to captivate and engage audiences.</p>
-                        <button className="text-xs mr-auto lg:mr-0 text-black bg-transparent w-[150px] py-3 px-1 rounded-lg lg:-ml-8 font-IBM border border-black hover:bg-black hover:text-[#fff] transition-all duration-300">Visit Website</button>
+                        <a href="https://shoes-orcin.vercel.app/" target="blank" className="text-xs text-center mr-auto lg:mr-0 text-black bg-transparent w-[150px] py-3 px-1 rounded-lg font-IBM border border-black hover:bg-black hover:text-[#fff] transition-all duration-300">Visit Website</a>
                     </span>
                 </div>
 
@@ -41,10 +41,10 @@ const Projects = () => {
                     <div className=" w-full md:w-[350px] h-auto md:h-[400px] bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
                         <Image src={ convertframe } className=" rounded-3xl" alt="" />
                     </div>
-                    <span className=" flex flex-col lg:mr-20 space-y-4 md:space-y-8">
+                    <span className=" flex flex-col md:mt-8 lg:mt-0 lg:mr-20 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Convertify</p>
                         <p className=" font-IBM text-xs font-light lg:w-36">Convertify allows users to convert various file types to multiple formats, including PDFs, images.</p>
-                        <button className=" text-xs mr-auto lg:mr-0 hover:text-white bg-transparent w-[150px] py-3 px-1 rounded-lg lg:-ml-8 font-IBM border border-black hover:bg-black text-[#000] transition-all duration-300">Visit Website</button>
+                        <a href="https://convertify-gamma.vercel.app/" target="blank" className=" text-center text-xs mr-auto lg:mr-0 hover:text-white bg-transparent w-[150px] py-3 px-1 rounded-lg font-IBM border border-black hover:bg-black text-[#000] transition-all duration-300">Visit Website</a>
                     </span>
                 </div>
 
@@ -53,10 +53,10 @@ const Projects = () => {
                     <div className=" w-full md:w-[350px] h-auto md:h-[400px] bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
                         <Image src={ smartframe } className=" rounded-3xl" alt="" />
                     </div>
-                    <span className="  w-full lg:w-auto flex flex-col lg:mr-20 space-y-4 md:space-y-8">
+                    <span className="  w-full lg:w-auto flex flex-col md:mt-8 lg:mt-0 lg:mr-20 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Smart-learn</p>
                         <p className=" font-IBM text-xs font-light lg:w-36">Smart learning is a dashboard for a learning platform</p>
-                        <button className=" text-xs mr-auto lg:mr-0 hover:text-white bg-transparent w-[150px] py-3 px-1 rounded-lg lg:-ml-8 font-IBM border border-black hover:bg-black text-[#000] transition-all duration-300">Visit Website</button>
+                        <a href="https://smart-learn-sigma.vercel.app/" target="blank" className=" text-xs mr-auto lg:mr-0 hover:text-white bg-transparent w-[150px] py-3 px-1 rounded-lg font-IBM border border-black hover:bg-black text-[#000] transition-all text-center duration-300">Visit Website</a>
                     </span>
                 </div>
                 <Link className=" w-[200px] block ml-auto font-IBM font-medium text-sm transition-all duration-300 hover:bg-black hover:text-white text-center border px-3 rounded-lg py-3 border-black p-1"  href='project'><button className=" ">View More Projects</button></Link>
