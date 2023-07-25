@@ -1,3 +1,4 @@
+"use client"
 import Navbar from "../comps/navbar";
 import Image from "next/image";
 import stickframe from '../images/stickframe.png';
@@ -7,17 +8,22 @@ import smartframe from '../images/smartframe.png';
 import cocoframe from '../images/cocoframe.png';
 import koreframe from '../images/koreframe.png';
 import bloggyframe from '../images/bloggyframe.png';
+import { motion } from "framer-motion";
 
 const Project = () => {
     return ( 
         <>
         <Navbar/>
-        <div className=" mt-32 w-full px-5 md:px-20 lg:px-[18%] -z-[9999]">
+        <motion.div 
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+        className=" mt-32 w-full px-5 md:px-20 lg:px-[18%] -z-[9999]">
             <div className=" space-y-10 md:space-y-16">
                 <div className=" w-full lg:h-[500px] relative rounded-3xl bg-[#ffffff85] border border-[#f1f1f1] backdrop-blur-[3.7px] flex flex-col lg:flex-row justify-between items-center p-5">
                     <p className="hidden lg:block font-IBM text-xs text-[#666666] -rotate-90 -ml-28 font-medium">React, Framer-Motion, Tailwind, Firebase</p>
-                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
-                        <Image src={ stickframe } className=" rounded-3xl" alt="" />
+                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-transparent flex justify-center items-center rounded-3xl lg:-ml-32">
+                        <Image src={ stickframe } className=" rounded-3xl border border-[#fff] shadow-sm" alt="" />
                     </div>
                     <span className=" flex flex-col lg:mr-20 md:mt-8 lg:mt-0 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Stickify</p>
@@ -28,8 +34,8 @@ const Project = () => {
 
                 <div className=" w-full lg:h-[500px] relative rounded-3xl bg-[#ffffff85] border border-[#f1f1f1] backdrop-blur-[3.7px] flex flex-col lg:flex-row justify-between items-center p-5">
                     <p className=" hidden lg:block font-IBM text-xs text-[#666666] -rotate-90 -ml-20 font-medium">React, Framer-Motion, Tailwind</p>
-                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
-                        <Image src={ shoeframe } className=" rounded-3xl" alt="" />
+                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-transparent flex justify-center items-center rounded-3xl lg:-ml-32">
+                        <Image src={ shoeframe } className=" rounded-3xl border border-[#fff] shadow-sm" alt="" />
                     </div>
                     <span className=" flex flex-col lg:mr-20 md:mt-8 lg:mt-0 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Shoes</p>
@@ -40,8 +46,8 @@ const Project = () => {
 
                 <div className=" w-full lg:h-[500px] relative rounded-3xl bg-[#ffffff85] border-2 border-[#f1f1f1] backdrop-blur-[3.7px] flex flex-col lg:flex-row justify-between items-center p-5">
                     <p className=" hidden lg:block font-IBM text-xs text-[#666666] -rotate-90 -ml-28 font-medium">Next-Js, Tailwind, Firebase, ConvertAPI</p>
-                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
-                         <Image src={ convertframe } className=" rounded-3xl" alt="" />
+                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-transparent flex justify-center items-center rounded-3xl lg:-ml-32">
+                         <Image src={ convertframe } className=" rounded-3xl border border-[#fff] shadow-sm" alt="" />
                     </div>
                     <span className=" flex flex-col lg:mr-20 md:mt-8 lg:mt-0 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Convertify</p>
@@ -52,8 +58,8 @@ const Project = () => {
 
                 <div className=" w-full lg:h-[500px] relative rounded-3xl bg-[#ffffff85] border-2 border-[#f1f1f1] backdrop-blur-[3.7px] flex flex-col lg:flex-row justify-between items-center p-5">
                     <p className=" hidden lg:block font-IBM text-xs text-[#666666] -rotate-90 -ml-28 font-medium">React, Tailwind, Framer-Motion, ChartJs</p>
-                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
-                        <Image src={ smartframe } className=" rounded-3xl" alt="" />
+                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-transparent flex justify-center items-center rounded-3xl lg:-ml-32">
+                        <Image src={ smartframe } className=" rounded-3xl border border-[#fff] shadow-sm" alt="" />
                     </div>
                     <span className="  w-full lg:w-auto flex flex-col lg:mr-20 md:mt-8 lg:mt-0 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Smart-learn</p>
@@ -64,8 +70,8 @@ const Project = () => {
 
                 <div className=" w-full lg:h-[500px] relative rounded-3xl bg-[#ffffff85] border-2 border-[#f1f1f1] backdrop-blur-[3.7px] flex flex-col lg:flex-row justify-between items-center p-5">
                     <p className=" hidden lg:block font-IBM text-xs text-[#666666] -rotate-90 -ml-20 font-medium">React, Tailwind, Framer-Motion</p>
-                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
-                        <Image src={ cocoframe } className=" rounded-3xl" alt="" />
+                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-transparent flex justify-center items-center rounded-3xl lg:-ml-32">
+                        <Image src={ cocoframe } className=" rounded-3xl border border-[#fff] shadow-sm" alt="" />
                     </div>
                     <span className="  w-full lg:w-auto flex flex-col lg:mr-20 md:mt-8 lg:mt-0 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Coconatty</p>
@@ -76,8 +82,8 @@ const Project = () => {
 
                 <div className=" w-full lg:h-[500px] relative rounded-3xl bg-[#ffffff85] border-2 border-[#f1f1f1] backdrop-blur-[3.7px] flex flex-col lg:flex-row justify-between items-center p-5">
                     <p className=" hidden lg:block font-IBM text-xs text-[#666666] -rotate-90 -ml-28 font-medium">React, Framer-Motion, ChartJs, Firebase</p>
-                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
-                        <Image src={ bloggyframe } className=" rounded-3xl" alt="" />
+                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-transparent flex justify-center items-center rounded-3xl lg:-ml-32">
+                        <Image src={ bloggyframe } className=" rounded-3xl border border-[#fff] shadow-sm" alt="" />
                     </div>
                     <span className="  w-full lg:w-auto flex flex-col lg:mr-20 md:mt-8 lg:mt-0 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Bloggy</p>
@@ -88,8 +94,8 @@ const Project = () => {
 
                 <div className=" w-full lg:h-[500px] relative rounded-3xl bg-[#ffffff85] border-2 border-[#f1f1f1] backdrop-blur-[3.7px] flex flex-col lg:flex-row justify-between items-center p-5">
                     <p className=" hidden lg:block font-IBM text-xs text-[#666666] -rotate-90 -ml-10 font-medium">Vanila Js, HTML, CSS</p>
-                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
-                        <Image src={ koreframe } className=" rounded-3xl" alt="" />
+                    <div className=" w-full md:w-[350px] md:h-[400px] h-auto bg-transparent flex justify-center items-center rounded-3xl lg:-ml-32">
+                        <Image src={ koreframe } className=" rounded-3xl border border-[#fff] shadow-sm" alt="" />
                     </div>
                     <span className="  w-full lg:w-auto flex flex-col lg:mr-20 md:mt-8 lg:mt-0 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Kore-Ola</p>
@@ -98,7 +104,7 @@ const Project = () => {
                     </span>
                 </div>
             </div>
-        </div>
+        </motion.div>
         </>
      );
 }

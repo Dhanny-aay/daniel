@@ -6,6 +6,11 @@ import react from '../images/structure.png';
 import js1 from '../images/js.png';
 import next from '../images/nextjs.svg';
 import framer from '../images/framer.webp';
+import firebase from '../images/firebase.png';
+import git from '../images/git.png';
+import node from '../images/nodejs.png';
+import figma from '../images/figma.png';
+import terminal from '../images/terminal.png';
 
 
 
@@ -22,14 +27,25 @@ const About = () => {
                 <div className=" w-full text-sm font-normal text-[#666666] font-IBM">
                     <p className=" font-IBM font-semibold text-xl text-[#121212] ">Technologies I've Used</p>
                     <div className=" w-full flex mt-10">
-                        <span className=" flex items-center justify-around w-full">
-                            <Image src={ html1 } alt="" />
-                            <Image src={ css1 } alt="" />
-                            <Image src={ js1 } alt="" />
-                            <Image src={ react } alt="" />
-                            <Image src={ framer } className="w-8 h-8" alt="" />
-                            <Image src={ tail } className=" w-8 h-8" alt="" />
-                            <Image src={ next } className=" w-10 h-6" alt="" />
+                        <span className=" flex flex-col space-y-8 md:space-y-0 md:flex-row items-center justify-around w-full">
+                            <div className=" w-full flex flex-row justify-around items-center">
+                                <Image src={ html1 } alt="" />
+                                <Image src={ css1 } alt="" />
+                                <Image src={ js1 } alt="" />
+                                <Image src={ react } alt="" />
+                            </div>
+                            <div className=" w-full flex flex-row justify-around items-center">
+                                <Image src={ framer } className="w-8 h-8" alt="" />
+                                <Image src={ firebase } className="w-8 h-8" alt="" />
+                                <Image src={ git } className="w-8 h-8" alt="" />
+                                <Image src={ node } className="w-8 h-8" alt="" />
+                            </div>
+                            <div className=" w-full flex flex-row justify-around items-center">
+                                <Image src={ tail } className=" w-8 h-8" alt="" />
+                                <Image src={ figma } className=" w-8 h-8" alt="" />
+                                <Image src={ terminal } className=" w-8 h-8" alt="" />
+                                <Image src={ next } className=" w-10 h-6" alt="" />
+                            </div>
                         </span>
                     </div>
                 </div>

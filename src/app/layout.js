@@ -1,5 +1,5 @@
 import './globals.css'
-import { Inter, IBM_Plex_Mono} from 'next/font/google'
+import { Inter, IBM_Plex_Mono} from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] })
 

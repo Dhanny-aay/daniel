@@ -8,14 +8,14 @@ import smartframe from '../images/smartframe.png';
 const Projects = () => {
     return ( 
         <>
-        <div className=" -mt-[200px] w-full px-5 md:px-20 lg:px-[18%] -z-[9999]">
-            <p className=" lg:-ml-32 text-2xl font-IBM font-semibold">My Projects</p>
-            <p className=" lg:-ml-32 mb-12 text-base mt-8 font-IBM text-[#797575]">Here are some of the things i've worked on</p>
+        <div className=" -mt-[200px] w-full px-5 md:px-20 lg:px-[12%] -z-[9999]">
+            <p className=" lg:-ml-32 text-2xl lg:px-[7%] font-IBM font-semibold">My Projects</p>
+            <p className=" lg:-ml-32 mb-12 text-base lg:px-[7%] mt-8 font-IBM text-[#797575]">Here are some of the things i've worked on</p>
             <div className=" space-y-10 md:space-y-16">
-                <div className=" w-full lg:h-[500px] relative rounded-3xl bg-[#ffffff85] border border-[#f1f1f1] backdrop-blur-[3.7px] flex flex-col lg:flex-row justify-between items-center p-5">
+                <div className=" w-full lg:h-[500px] relative rounded-3xl bg-[#ffffff85] border border-[#f1f1f1] backdrop-blur-[3.7px] flex flex-col lg:flex-row lg:justify-between justify-center items-center p-5">
                     <p className="hidden lg:block font-IBM text-xs text-[#666666] -rotate-90 -ml-28 font-medium">React, Framer-Motion, Tailwind, Firebase</p>
-                    <div className=" w-full md:w-[350px] h-auto md:h-[400px] bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
-                        <Image src={ stickframe } className=" rounded-3xl" alt="" />
+                    <div className=" w-full md:w-[350px] h-auto md:h-[400px] bg-transparent flex justify-center items-center lg:-ml-32">
+                        <Image src={ stickframe } className=" rounded-3xl border shadow-sm border-[#fff]" alt="" />
                     </div>
                     <span className=" flex flex-col md:mt-8 lg:mt-0 lg:mr-20 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Stickify</p>
@@ -26,8 +26,8 @@ const Projects = () => {
 
                 <div className=" w-full lg:h-[500px] relative rounded-3xl bg-[#ffffff85] border border-[#f1f1f1] backdrop-blur-[3.7px] flex flex-col lg:flex-row justify-between items-center p-5">
                     <p className=" hidden lg:block font-IBM text-xs text-[#666666] -rotate-90 -ml-20 font-medium">React, Framer-Motion, Tailwind</p>
-                    <div className=" w-full md:w-[350px] h-auto md:h-[400px] bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
-                        <Image src={ shoeframe } className=" rounded-3xl" alt="" />
+                    <div className=" w-full md:w-[350px] h-auto md:h-[400px] bg-transparent flex justify-center items-center rounded-3xl lg:-ml-32">
+                        <Image src={ shoeframe } className=" rounded-3xl  border border-[#fff] shadow-sm" alt="" />
                     </div>
                     <span className=" flex flex-col md:mt-8 lg:mt-0 lg:mr-20 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Shoes</p>
@@ -38,8 +38,8 @@ const Projects = () => {
 
                 <div className=" w-full lg:h-[500px] relative rounded-3xl bg-[#ffffff85] border-2 border-[#f1f1f1] backdrop-blur-[3.7px] flex flex-col lg:flex-row justify-between items-center p-5">
                     <p className=" hidden lg:block font-IBM text-xs text-[#666666] -rotate-90 -ml-28 font-medium">Next-Js, Tailwind, Firebase, ConvertAPI</p>
-                    <div className=" w-full md:w-[350px] h-auto md:h-[400px] bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
-                        <Image src={ convertframe } className=" rounded-3xl" alt="" />
+                    <div className=" w-full md:w-[350px] h-auto md:h-[400px] bg-transparent flex justify-center items-center rounded-3xl lg:-ml-32">
+                        <Image src={ convertframe } className=" rounded-3xl  border border-[#fff] shadow-sm" alt="" />
                     </div>
                     <span className=" flex flex-col md:mt-8 lg:mt-0 lg:mr-20 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Convertify</p>
@@ -50,8 +50,8 @@ const Projects = () => {
 
                 <div className=" w-full lg:h-[500px] relative rounded-3xl bg-[#ffffff85] border-2 border-[#f1f1f1] backdrop-blur-[3.7px] flex flex-col lg:flex-row justify-between items-center p-5">
                     <p className=" hidden lg:block font-IBM text-xs text-[#666666] -rotate-90 -ml-28 font-medium">React, Tailwind, Framer-Motion, ChartJs</p>
-                    <div className=" w-full md:w-[350px] h-auto md:h-[400px] bg-slate-200 border border-[#fff] shadow-sm rounded-3xl lg:-ml-32">
-                        <Image src={ smartframe } className=" rounded-3xl" alt="" />
+                    <div className=" w-full md:w-[350px] h-auto md:h-[400px] bg-transparent flex justify-center items-center rounded-3xl lg:-ml-32">
+                        <Image src={ smartframe } className=" rounded-3xl  border border-[#fff] shadow-sm" alt="" />
                     </div>
                     <span className="  w-full lg:w-auto flex flex-col md:mt-8 lg:mt-0 lg:mr-20 space-y-4 md:space-y-8">
                         <p className=" font-IBM text-lg mt-4 lg:mt-0 font-semibold">Smart-learn</p>
