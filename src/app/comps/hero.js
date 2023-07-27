@@ -15,7 +15,7 @@ const Hero = () => {
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className=" mt-44 md:px-14 lg:px-20 px-5 flex flex-col lg:flex-row lg:justify-around lg:items-start items-center">
+        className=" mt-32 md:mt-44 md:px-14 lg:px-20 px-5 flex flex-col lg:flex-row lg:justify-around lg:items-start items-center">
             <div>
                 <p className=" text-[#000] text-2xl md:text-3xl md:w-[650px] font-IBM font-medium">Web Developer.</p>
                 <p className=" text-[#666666] text-2xl md:text-3xl mt-5 md:w-[600px] font-IBM font-normal">Crafting captivating web interfaces that blend <span className=" text-black">code</span> and <span className="text-black">creativity</span> seamlessly</p>
