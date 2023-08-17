@@ -58,7 +58,7 @@ const Hero = () => {
                     </a>
                 </span>
                 <span className="flex space-x-1 items-end">
-                    <a href="https://www.linkedin.com/in/daniel-akintolu-a38138222/" target="blank" className=" flex space-x-1 items-end">
+                    <a href="https://www.linkedin.com/in/daniel-akintolu-901016289/" target="blank" className=" flex space-x-1 items-end">
                     <Image src={ TW } className=" w-4 h-4" alt="" />
                     <p className=" font-IBM text-xs">LND</p>
                     </a>
